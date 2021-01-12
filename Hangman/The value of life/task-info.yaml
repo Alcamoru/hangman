@@ -259,5 +259,8 @@ files:
         CoffeeMachineTest('hangman.hangman').run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/projects/69/stages/377/implement#comment
-status: Failed
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 12 Jan 2021 18:36:30 UTC
 record: 5

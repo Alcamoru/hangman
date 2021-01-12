@@ -106,4 +106,7 @@ files:
   learner_created: false
 feedback_link: https://hyperskill.org/projects/69/stages/375/implement#comment
 status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 12 Jan 2021 13:19:28 UTC
 record: 3
