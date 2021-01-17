@@ -36,6 +36,12 @@ files:
     from random import shuffle, randint
     from string import ascii_lowercase, ascii_letters, punctuation, digits
 
+    try:
+        from hstest.dynamic.output.infinite_loop_detector import loop_detector
+        loop_detector.check_repeatable_output = False
+    except:
+        pass
+
     CheckResult.correct = lambda: CheckResult(True, '')
     CheckResult.wrong = lambda feedback: CheckResult(False, feedback)
 
@@ -322,5 +328,8 @@ files:
         CoffeeMachineTest('hangman.hangman').run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/projects/69/stages/378/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 17 Jan 2021 07:50:44 UTC
+record: 7
